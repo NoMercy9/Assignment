@@ -1,0 +1,8 @@
+com\spring\database\springbootassignment\model\Department.class
+com\spring\database\springbootassignment\model\Employee.class
+com\spring\database\springbootassignment\services\AddressServices.class
+com\spring\database\springbootassignment\SpringBootAssignmentApplication.class
+com\spring\database\springbootassignment\services\EmployeeServices.class
+com\spring\database\springbootassignment\repository\EmployeeRepository.class
+com\spring\database\springbootassignment\model\Address.class
+com\spring\database\springbootassignment\repository\AddressRepository.class
