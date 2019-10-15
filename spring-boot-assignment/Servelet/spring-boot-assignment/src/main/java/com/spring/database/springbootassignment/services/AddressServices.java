@@ -16,9 +16,10 @@ public class AddressServices {
 	
 	@RequestMapping("/insert")
     public String process(){
-        addressRepository.save(new Address("Street","city","110015"));
-        addressRepository.save(new Address("shivaji marg","delhi","110001"));
-        addressRepository.save(new Address("najafgarh road","new delhi","110045"));
+        addressRepository.save(new Address("New Zealand","city","110015"));
+        addressRepository.save(new Address("India","city","110001"));
+        addressRepository.save(new Address("Australia","city","110045"));
+	addressRepository.save(new Address("England","city","110045"));
         return "Done";
     }
 	
