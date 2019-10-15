@@ -29,9 +29,12 @@ public class EmployeeServices {
 	
 	@RequestMapping("/insert")
     public String process(){
-        employeeRepository.save(new Employee("Sonali"));
-        employeeRepository.save(new Employee("Johnson"));
+        employeeRepository.save(new Employee("Virat"));
         employeeRepository.save(new Employee("Smith"));
+        employeeRepository.save(new Employee("Williamson"));
+	employeeRepository.save(new Employee("Root"));
+        employeeRepository.save(new Employee("Rohit"));
+        employeeRepository.save(new Employee("Warner"));
         return "Done";
     }
 	
