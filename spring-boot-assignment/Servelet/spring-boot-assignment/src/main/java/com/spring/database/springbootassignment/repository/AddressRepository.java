@@ -4,6 +4,9 @@ import org.springframework.data.jpa.repository.JpaRepository;
 
 import com.spring.database.springbootassignment.model.Address;
 
+
+
+
 public interface AddressRepository extends JpaRepository<Address,Integer>{
 
 }
